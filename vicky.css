@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;700&display=swap');
+body{
+    margin: 0;
+    /* padding: 0; */
+}
+#main-container{
+    display: flex;
+    margin:90px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+.container-1{
+    width: 20%;
+    max-width: 1440px;
+    background-color: #E28525;
+    max-height: 1500px;
+    height: 70vh;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container-2{
+    width: 20%;
+    background-color: #016972;
+    max-height: 1000px;
+    height: 70vh;
+}
+.container-3{
+    width: 20%;
+    background-color: #00403F;
+    max-height: 1000px;
+    height: 70vh;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+p{
+    font-family: Lexend Deca;
+    font-size: 0.8rem;
+    /* margin: 0 10px; */
+    color: white;
+    font-weight: 300;
+    /* margin: 0; */
+    margin: 30px 30px 0 30px;
+    line-height: 1.5;
+}
+h1{
+    font-family: Big Shoulders Display;
+    color: white;
+    margin: 25px 0 0 30px;
+}
+.central{
+    margin: 0 auto;
+}
+img{
+    margin: 50px 0 0 30px;
+}
+button{
+    width: min(900px, 50%);
+    height: min(900px, 7vh);
+    border-radius: 30px;
+    background-color: white;
+    border-color: white;
+    /* color: unset; */
+    border-width: 2px;
+    margin: 90px 0 0 30px;
+    font-family: Lexend Deca;
+    font-size: 500;
+}
+.btn-1{
+    color: #E28525;
+}
+.btn-2{
+    color: #016972;
+}
+.btn-3{
+    color: #00403F;
+}
+@media (max-width: 1440px) {
+    button{
+        margin: 30px 0 0 30px;
+    }
+}
+@media (max-width: 800px) {
+    #main-container{
+        display: block;
+        /* width: 100%; */
+        margin: 0;
+    }
+    .container-1{
+        height: 80vh;
+        width: 100%;
+        height: 60vh;
+    }
+    .container-2{
+        height: 80vh;
+        width: 100%;
+        height: 60vh;
+    }
+    .container-3{
+        height: 80vh;
+        width: 100%;
+        height: 60vh;
+    }
+    button{
+        width: 25%;
+    }
+}
