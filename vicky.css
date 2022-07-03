@@ -138,3 +138,44 @@ button {
         height: 70vh;
     }
 }
+@media (max-width: 320px) {
+    .container-1{
+        height: 50vh;
+    }
+    .container-1 img{
+        margin: 10px 20px 0 20px;
+    }
+    .container-1 h1 p{
+        margin: 10px 20px 0 20px;
+    }
+    .btn-1{
+        width: 35%;
+        margin: 20px 0 0 20px;
+    }
+    .container-2{
+        height: 50vh;
+    }
+    .container-2 img{
+        margin: 10px 20px 0 20px;
+    }
+    .container-2 h1 p{
+        margin: 10px 20px 0 20px;
+    }
+    .btn-2{
+        width: 35%;
+        margin: 20px 0 0 20px;
+    }
+    .container-3{
+        height: 54vh;
+    }
+    .container-3 img{
+        margin: 10px 20px 0 20px;
+    }
+    .container-3 h1 p{
+        margin: 10px 20px 0 20px;
+    }
+    .btn-3{
+        width: 35%;
+        margin: 20px 0 0 20px;
+    }
+}
