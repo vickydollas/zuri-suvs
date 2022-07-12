@@ -130,15 +130,15 @@ button {
     width: 25%;
   }
 }
-@media (max-width: 430px) {
+/*@media (max-width: 430px) {
     .container-1{
         height: 70vh;
     }
     .container-3{
         height: 70vh;
     }
-}
-@media (max-width: 320px) {
+}*/
+@media (max-width: 500px) {
     .container-1{
         height: 50vh;
     }
